@@ -15,6 +15,7 @@ public class DataStore {
 	public static final int BOOKMARK_COUNT_PER_TYPE = 5;
 	public static final int BOOKMARK_TYPES_COUNT = 3;
 	public static final int TOTAL_USER_COUNT = 5;
+	private static int damian = 5;
 	
 	private static User[] users = new User[TOTAL_USER_COUNT];
 	public static User[] getUsers() {
